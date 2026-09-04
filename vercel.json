@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/concepts/search-research-showcase/index.html"
+    }
+  ]
+}

@@ -4,8 +4,8 @@
 
 ## 当前网站
 
-- 仓库根目录的 `index.html`：既有入口页面，暂不改动。
 - `concepts/search-research-showcase/`：当前持续维护的中英双语网站，共包含首页、研究成果、合作中心、队列和文件中心五个页面。
+- Vercel 通过根目录的 `vercel.json` 将 `/` 重写到该网站首页；网站的资源与数据文件仍保留在原目录，避免破坏相对路径。
 
 ## 本地预览
 
@@ -28,9 +28,8 @@ http://127.0.0.1:4176/concepts/search-research-showcase/index.html?variant=A
 - `concepts/search-research-showcase/`：当前网站的 HTML、CSS、JavaScript、JSON 和页面图片。
 - `Co-Team/主中心/`、`Co-Team/分中心/`：网站实际使用的团队成员照片。
 - `Document/`：文件中心提供下载的公开 PDF。
-- `assets/`、`icon/`：根页面与网站共用的视觉素材。
+- `icon/`：网站共用的视觉素材。
 - `scripts/preview_site.py`：本地无缓存预览服务器。
-- `api/`：既有接口代码。
 
 ## 归档说明
 
