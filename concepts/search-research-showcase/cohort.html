@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="SEARCH 临床研究队列入组与生物样本资源概览" />
+    <title>队列信息 · SEARCH</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Noto+Sans+SC:wght@400;500;600;700&amp;family=Noto+Serif+SC:wght@500;600;700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="prototype-home.css?v=21" />
+    <link rel="stylesheet" href="cohort-prototype.css?v=8" />
+  </head>
+  <!-- PROTOTYPE — three cohort-information layouts, switchable with ?variant=A|B|C. -->
+  <body class="cohort-page" data-prototype="true">
+    <div class="prototype-notice" role="note">
+      <span>视觉原型</span>
+      <strong>截至 2026-07-02 的静态数据 · 生物样本按中心拆分待补充</strong>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html?variant=A" aria-label="SEARCH 首页">
+        <img class="brand-mark" src="../../icon/search-emblem.svg" alt="SEARCH" />
+        <span class="brand-copy">
+          <strong>中国脓毒症和 ARDS 临床研究协作联盟（SEARCH）</strong>
+          <small>Sepsis and ARDS Research Collaborative Network of China (SEARCH)</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">菜单</button>
+      <nav class="main-nav" id="primary-nav" aria-label="主要导航">
+        <a href="index.html?variant=A">首页</a>
+        <a href="research.html">研究与成果</a>
+        <a href="network.html">合作单位</a>
+        <a class="is-active" href="cohort.html">队列信息</a>
+        <a href="documents.html">项目文件</a>
+      </nav>
+      <div class="header-actions">
+        <button class="language-button" type="button" data-language-toggle aria-label="切换语言" title="切换至 English">中文 / EN</button>
+        <a class="contact-link" href="mailto:search_cn@163.com">发起科研合作</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="cohort-variant cohort-a" data-variant="A" aria-label="方案 A：队列总览">
+        <header class="cohort-a-hero">
+          <div class="page-shell cohort-a-hero-grid">
+            <div>
+              <p class="eyebrow dark">Cohort snapshot · Shared evidence</p>
+              <h1>让每一例入组与每一份样本，<br />成为可追溯的<em>研究坐标</em></h1>
+              <p class="cohort-lead">SEARCH 以统一的入组、采样与质量标准连接主中心和全国分中心。这里呈现的是经确认可公开的队列聚合信息，不包含任何个体级临床记录。</p>
+            </div>
+            <aside class="cutoff-card" aria-label="数据审核状态">
+              <span>DATA CUT-OFF</span>
+              <strong>2026.07.02</strong>
+              <p><i></i> 当前为静态审核数据</p>
+            </aside>
+          </div>
+        </header>
+
+        <section class="headline-metrics" aria-label="队列核心数字">
+          <article><span>入组总人数</span><strong>3,271</strong><small>主中心与分中心合计</small></article>
+          <article><span>主中心入组</span><strong>2,316</strong><small>复旦大学附属中山医院</small></article>
+          <article><span>分中心入组</span><strong>955</strong><small>全国协作分中心合计</small></article>
+          <article class="sample-metric"><span>实体生物样本管数</span><strong>2,867</strong><small>血清、血浆、PBMC 等总计</small></article>
+        </section>
+
+        <section class="composition-section page-shell">
+          <div class="cohort-section-head">
+            <div><p class="eyebrow dark">Enrollment composition</p><h2>入组构成</h2></div>
+            <p>同一统计截止日期下，分别呈现主中心和分中心入组人数，确保不同层级的数据口径清晰可比。</p>
+          </div>
+          <div class="composition-grid">
+            <div class="composition-chart" role="img" aria-label="主中心入组占 70.8%，分中心入组占 29.2%">
+              <div class="donut"><span><strong>3,271</strong><small>入组总人数</small></span></div>
+              <div class="chart-legend">
+                <p><i class="main"></i><span>主中心</span><strong>2,316</strong><small>70.8%</small></p>
+                <p><i class="branch"></i><span>分中心</span><strong>955</strong><small>29.2%</small></p>
+              </div>
+            </div>
+            <article class="center-data-card main-center-data">
+              <span>MAIN CENTER · 01</span>
+              <h3>复旦大学附属中山医院</h3>
+              <strong>2,316 <small>人</small></strong>
+              <p>承担队列统筹、统一标准建设、跨中心协调与研究质量管理。</p>
+            </article>
+            <article class="center-data-card branch-center-data">
+              <span>COLLABORATING CENTERS</span>
+              <h3>全国协作分中心</h3>
+              <strong>955 <small>人</small></strong>
+              <p>按照共同研究方案持续完成入组、采样、数据核对与外部验证。</p>
+              <a href="network.html">查看合作单位 →</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="biospecimen-section">
+          <div class="page-shell biospecimen-grid">
+            <div class="biospecimen-intro">
+              <p class="eyebrow">Biospecimen resources</p>
+              <h2><strong>2,867</strong><span>实体生物样本管</span></h2>
+              <p>包括血清、血浆、PBMC 等实体样本。同一位受试者可能对应多管样本，因此该数字不等同于入组人数。</p>
+            </div>
+            <div class="specimen-types" aria-label="生物样本类型">
+              <span>血清 SERUM</span><span>血浆 PLASMA</span><span>PBMC</span><span>其他已入库实体样本</span>
+            </div>
+            <div class="pending-splits">
+              <article><span>主中心样本管数</span><strong>待补充</strong><small>当前已确认总量，尚未提供中心拆分</small></article>
+              <article><span>分中心样本管数</span><strong>待补充</strong><small>后续按同一审核日期统一发布</small></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="update-section page-shell">
+          <div class="cohort-section-head">
+            <div><p class="eyebrow dark">Data publishing path</p><h2>从静态审核到可持续更新</h2></div>
+          </div>
+          <ol class="update-flow">
+            <li class="is-current"><span>01</span><strong>静态数据</strong><p>使用已确认的聚合数字完成页面设计。</p><small>当前阶段</small></li>
+            <li><span>02</span><strong>团队审核</strong><p>核对中心拆分、统计日期与公开权限。</p></li>
+            <li><span>03</span><strong>在线同步</strong><p>同步经确认的候选更新数字。</p></li>
+            <li><span>04</span><strong>公开发布</strong><p>审核通过后更新页面并保留时间戳。</p></li>
+          </ol>
+        </section>
+      </section>
+
+      <section class="cohort-variant cohort-b" data-variant="B" aria-label="方案 B：数据仪表盘" hidden>
+        <div class="dashboard-shell">
+          <header class="dashboard-head">
+            <div><p>SEARCH / COHORT MONITOR</p><h1>队列数据<br />概览</h1></div>
+            <div class="dashboard-status"><i></i><span>STATIC SNAPSHOT</span><strong>2026-07-02</strong><small>生物样本中心拆分待补充</small></div>
+          </header>
+          <section class="dashboard-metrics">
+            <article class="dashboard-primary"><span>ENROLLED PARTICIPANTS</span><strong>3,271</strong><div><b>主中心 2,316</b><b>分中心 955</b></div></article>
+            <article><span>MAIN CENTER</span><strong>2,316</strong><small>70.8% OF ENROLLMENT</small></article>
+            <article><span>BRANCH CENTERS</span><strong>955</strong><small>29.2% OF ENROLLMENT</small></article>
+            <article><span>BIOSPECIMEN TUBES</span><strong>2,867</strong><small>SERUM · PLASMA · PBMC · OTHERS</small></article>
+          </section>
+          <section class="dashboard-panels">
+            <article class="dashboard-composition">
+              <header><span>01 / ENROLLMENT</span><strong>入组构成</strong></header>
+              <div class="dashboard-donut"><span><b>70.8%</b><small>主中心</small></span></div>
+              <div class="dashboard-bars"><p><span>复旦中山 · 主中心</span><b>2,316</b><i><em style="width:70.8%"></em></i></p><p><span>全国协作分中心</span><b>955</b><i><em style="width:29.2%"></em></i></p></div>
+            </article>
+            <article class="dashboard-specimen">
+              <header><span>02 / BIOSPECIMEN</span><strong>实体样本资源</strong></header>
+              <div class="specimen-total"><strong>2,867</strong><span>管</span></div>
+              <ul><li>血清 / SERUM</li><li>血浆 / PLASMA</li><li>PBMC</li><li>其他实体样本</li></ul>
+              <div class="pending-banner"><b>!</b><p><strong>中心拆分待补充</strong><span>不以推算值替代正式审核数据</span></p></div>
+            </article>
+            <article class="dashboard-pipeline">
+              <header><span>03 / UPDATE</span><strong>更新状态</strong></header>
+              <ol><li class="done"><i></i><span>公开数据确认</span><b>完成</b></li><li class="active"><i></i><span>页面视觉设计</span><b>进行中</b></li><li><i></i><span>中心样本拆分</span><b>待提供</b></li><li><i></i><span>在线同步</span><b>后续阶段</b></li></ol>
+            </article>
+          </section>
+        </div>
+      </section>
+
+      <section class="cohort-variant cohort-c" data-variant="C" aria-label="方案 C：队列叙事" hidden>
+        <header class="ledger-hero page-shell">
+          <p class="ledger-kicker">SEARCH COHORT LEDGER · 2026</p>
+          <div><h1>数字记录规模，<br />标准守护<em>可信度。</em></h1><p>一份面向科研合作者的队列资源简报。每一个公开数字，都对应明确的统计口径、中心层级与审核日期。</p></div>
+          <span>数据截至<br /><strong>2026.07.02</strong></span>
+        </header>
+        <section class="ledger-numbers page-shell">
+          <article><span>01</span><div><small>ENROLLED PARTICIPANTS</small><strong>3,271</strong><p>已按研究方案纳入临床研究队列的受试者总人数。</p></div></article>
+          <article><span>02</span><div><small>MAIN CENTER</small><strong>2,316</strong><p>复旦大学附属中山医院主中心入组人数。</p></div></article>
+          <article><span>03</span><div><small>BRANCH CENTERS</small><strong>955</strong><p>全国协作分中心入组人数合计。</p></div></article>
+          <article class="ledger-sample"><span>04</span><div><small>BIOSPECIMEN TUBES</small><strong>2,867</strong><p>血清、血浆、PBMC 等实体生物样本管数总计。</p></div></article>
+        </section>
+        <section class="ledger-story">
+          <div class="page-shell">
+            <header><p>HOW TO READ THE DATA</p><h2>读懂数字背后的队列</h2></header>
+            <div class="ledger-columns">
+              <article><b>入组人数 ≠ 样本管数</b><p>入组人数统计受试者；实体生物样本管数统计样本库中的样本管，同一受试者可能对应多管样本。</p></article>
+              <article><b>主中心与分中心分别呈现</b><p>主中心负责队列统筹，分中心按照共同方案参与建设。分层展示让协作贡献与数据来源更加清晰。</p></article>
+              <article><b>未知数据明确留白</b><p>样本按中心拆分尚未提供，因此页面保留“待补充”，不以估算值填补正式统计。</p></article>
+            </div>
+          </div>
+        </section>
+        <section class="ledger-next page-shell">
+          <span>NEXT UPDATE</span><h2>先让每个数字经得起核对，<br />再让更新变得自动。</h2><p>当前使用静态审核数据完成设计。未来接入在线同步时，仍保留审核、更新时间和数据口径说明。</p>
+          <div><b>STATIC</b><i></i><b>REVIEW</b><i></i><b>ONLINE SYNC</b><i></i><b>UPDATE</b></div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="global-footer">
+      <div class="page-shell footer-directory">
+        <div class="footer-identity"><div class="footer-identity-head"><img class="footer-brand-mark" src="../../icon/search-emblem.svg" alt="SEARCH" /><span><strong>中国脓毒症和 ARDS 临床研究协作联盟</strong><small>SEpsis and ARDS Research Collaborative network of CHina</small></span></div><p>连接临床一线、规范队列、生物样本与多中心研究，共同推动危重症临床证据的发现、验证与转化。</p></div>
+        <nav class="footer-column site-map" aria-label="页脚网站导航"><h3>网站导航</h3><a href="index.html?variant=A">首页</a><a href="research.html">研究与成果</a><a href="network.html">合作单位</a><a href="cohort.html">队列信息</a><a href="documents.html">项目文件</a></nav>
+        <nav class="footer-column" aria-label="相关机构"><h3>相关机构</h3><a href="https://www.zs-hospital.sh.cn/" target="_blank" rel="noopener noreferrer">复旦大学附属中山医院</a><a href="https://shmc.fudan.edu.cn/main.htm" target="_blank" rel="noopener noreferrer">复旦大学上海医学院</a><a href="https://www.fudan.edu.cn/" target="_blank" rel="noopener noreferrer">复旦大学</a></nav>
+        <div class="footer-column footer-contact-column"><h3>项目联系</h3><p>科研合作、多中心协作与项目公开资料咨询</p><a class="footer-mail" href="mailto:search_cn@163.com">search_cn@163.com</a></div>
+      </div>
+      <div class="footer-meta"><div class="page-shell"><strong>© 2026 SEARCH Consortium</strong><span>上海市徐汇区枫林路 180 号</span><span>科研信息展示 · 不构成医疗建议</span></div></div>
+    </footer>
+
+    <div class="prototype-switcher" aria-label="队列信息页方案切换">
+      <button type="button" data-direction="previous" aria-label="上一个方案">←</button>
+      <div><small>COHORT LAYOUT</small><strong id="variant-label">A — 队列总览</strong></div>
+      <button type="button" data-direction="next" aria-label="下一个方案">→</button>
+    </div>
+
+    <script src="cohort-prototype.js"></script>
+    <script src="app.js?v=10"></script>
+  </body>
+</html>

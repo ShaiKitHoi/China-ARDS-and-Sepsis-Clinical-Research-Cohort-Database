@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">SEARCH 临床研究协作联盟标识</title>
+  <desc id="description">由蓝红 ECMO 循环、肺部、细支气管肺泡、离心泵、膜式氧合器和 SEARCH 字样组成的圆形标识。</desc>
+
+  <defs>
+    <marker id="flow-arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto" markerUnits="strokeWidth">
+      <path d="M1 1 11 6 1 11Z" fill="#fff"/>
+    </marker>
+  </defs>
+
+  <!-- ECMO extracorporeal circuit: deoxygenated inflow and oxygenated return -->
+  <g id="ecmo-circuit" fill="none">
+    <path d="M512 92A420 420 0 0 0 512 932" stroke="#0639A6" stroke-width="64"/>
+    <path d="M512 92A420 420 0 0 1 512 932" stroke="#E5484D" stroke-width="64"/>
+    <path d="M166 352A366 366 0 0 1 405 151" stroke="#fff" stroke-width="10" stroke-linecap="round" marker-end="url(#flow-arrow)"/>
+    <path d="M858 672A366 366 0 0 1 650 875" stroke="#fff" stroke-width="10" stroke-linecap="round" marker-end="url(#flow-arrow)"/>
+  </g>
+
+  <!-- Abstract centrifugal pump -->
+  <g id="centrifugal-pump">
+    <circle cx="512" cy="92" r="70" fill="#fff" stroke="#0639A6" stroke-width="14"/>
+    <circle cx="512" cy="92" r="14" fill="#0639A6"/>
+    <path d="M512 77C530 57 557 69 555 92M525 102C538 124 519 146 497 136M499 102C474 103 464 78 479 61" fill="none" stroke="#0639A6" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- Paired lungs -->
+  <g id="lungs">
+    <path d="M478 263C429 243 363 269 326 340C288 414 271 548 285 649C297 737 356 772 420 744C468 723 488 655 488 568V392C488 326 486 282 478 263Z" fill="#0639A6"/>
+    <path d="M546 263C595 243 661 269 698 340C736 414 753 548 739 649C727 737 668 772 604 744C556 723 536 655 536 568V392C536 326 538 282 546 263Z" fill="#0639A6"/>
+
+    <!-- Central airway -->
+    <path d="M512 286V425M512 425C502 447 483 466 456 489M512 425C522 447 541 466 568 489" fill="none" stroke="#0639A6" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Terminal bronchioles -->
+    <path d="M456 489C432 513 416 541 402 570L386 598M568 489C592 513 608 541 622 570L638 598" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Left alveolar sac -->
+    <g fill="none" stroke="#fff" stroke-width="10">
+      <circle cx="357" cy="612" r="24"/>
+      <circle cx="389" cy="600" r="26"/>
+      <circle cx="418" cy="619" r="24"/>
+      <circle cx="407" cy="650" r="24"/>
+      <circle cx="375" cy="655" r="25"/>
+      <circle cx="343" cy="640" r="22"/>
+    </g>
+    <circle cx="357" cy="612" r="18" fill="#E5484D"/>
+    <circle cx="389" cy="600" r="18" fill="#E5484D"/>
+
+    <!-- Right alveolar sac -->
+    <g fill="none" stroke="#fff" stroke-width="10">
+      <circle cx="667" cy="612" r="24"/>
+      <circle cx="635" cy="600" r="26"/>
+      <circle cx="606" cy="619" r="24"/>
+      <circle cx="617" cy="650" r="24"/>
+      <circle cx="649" cy="655" r="25"/>
+      <circle cx="681" cy="640" r="22"/>
+    </g>
+    <circle cx="667" cy="612" r="18" fill="#E5484D"/>
+    <circle cx="635" cy="600" r="18" fill="#E5484D"/>
+  </g>
+
+  <!-- Research network acronym -->
+  <text x="512" y="822" fill="#0639A6" font-family="Inter, 'Avenir Next', 'Noto Sans', Arial, sans-serif" font-size="78" font-weight="500" letter-spacing="14" text-anchor="middle">SEARCH</text>
+
+  <!-- Abstract membrane oxygenator -->
+  <g id="membrane-oxygenator" fill="none" stroke="#E5484D" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M512 851 587 926 512 1001 437 926Z" fill="#fff" stroke-width="14"/>
+    <path d="M477 892H547M465 915H559M465 938H559M477 961H547" stroke-width="12"/>
+  </g>
+</svg>

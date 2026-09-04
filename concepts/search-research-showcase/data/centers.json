@@ -1,0 +1,936 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-08-23",
+  "source": {
+    "workbook": "archived outside repository: Co-Team/映射表/最终白底照片映射.xlsx",
+    "sheet": "分中心映射",
+    "range": "A5:H69"
+  },
+  "publication_status": "approved",
+  "ordering_note": "武汉协和医院与武汉大学人民医院按用户要求置于分中心前列；其余中心顺序为工作稿，待领导审核。",
+  "summary": {
+    "main_centers": 1,
+    "branch_centers": 23,
+    "branch_people": 64,
+    "branch_pis": 29
+  },
+  "main_center": {
+    "center_id": "fudan-zhongshan",
+    "center_name": "复旦大学附属中山医院",
+    "center_type": "主中心",
+    "role": "SEARCH 协调与研究主中心",
+    "lead": {
+      "member_id": "main-center-lead",
+      "name": "宋振举",
+      "role": "项目负责人",
+      "photo": "../../Co-Team/主中心/宋振举+复旦大学附属中山医院.png",
+      "publication_status": "approved"
+    },
+    "members": [],
+    "members_status": "pending-source-data"
+  },
+  "front_center_ids": [
+    "wuhan-union",
+    "wuhan-renmin"
+  ],
+  "centers": [
+    {
+      "center_id": "wuhan-union",
+      "center_name": "华中科技大学同济医学院附属协和医院",
+      "center_type": "分中心",
+      "region": "中部与华南",
+      "display_order": 1,
+      "order_status": "user-prioritized",
+      "pis": [
+        {
+          "member_id": "member-039",
+          "name": "邹晓静",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "华中科技大学同济医学院附属协和医院 重症医学科副主任\n中国女医师协会重症医学专委会委员\n湖北省体外生命支持技术医疗质量控制中心委员\n主持国家重点研发计划1项、国家自然科学基金\n在Lancet Respir Med、Chest、Crit Care等杂志发表论文30余篇",
+          "introduction_en": "Deputy Director, Department of Critical Care Medicine, Union Hospital, Tongji Medical College, Huazhong University of Science and Technology\nMember, Critical Care Medicine Committee, Chinese Women Physicians Association\nMember, Hubei Medical Quality Control Center for Extracorporeal Life Support\nPrincipal investigator of one National Key R&D Program and National Natural Science Foundation of China projects\nAuthor of more than 30 papers in Lancet Respiratory Medicine, Chest, Critical Care, and other journals",
+          "photo": "../../Co-Team/分中心/邹晓静+华中科技大学同济医学院附属协和医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-040",
+          "name": "吴永然",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/吴永然+华中科技大学同济医学院附属协和医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-041",
+          "name": "王阿贞",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/王阿贞+华中科技大学同济医学院附属协和医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-042",
+          "name": "彭成朝",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/彭成朝+华中科技大学同济医学院附属协和医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 4
+    },
+    {
+      "center_id": "wuhan-renmin",
+      "center_name": "武汉大学人民医院",
+      "center_type": "分中心",
+      "region": "中部与华南",
+      "display_order": 2,
+      "order_status": "user-prioritized",
+      "pis": [
+        {
+          "member_id": "member-033",
+          "name": "詹丽英",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "武汉大学人民医院急重症中心主任\n湖北省医学会重症医学分会副主任委员\n中国研究型学会休克与脓毒症专业委员会委员\n主持国家重点研发计划项目子课题1项、国家自然科学基金面上项目2项、省部级课题5项等\n在Advanced Science、EClinicalMedicine、Critical Care等杂志发表SCI论文30余篇",
+          "introduction_en": "Director, Emergency and Critical Care Center, Renmin Hospital of Wuhan University\nVice Chair, Critical Care Medicine Branch, Hubei Medical Association\nMember, Shock and Sepsis Committee, Chinese Research Hospital Association\nLead investigator of one National Key R&D subproject, two NSFC General Program projects, and five provincial or ministerial projects\nAuthor of more than 30 SCI-indexed papers including Advanced Science, EClinicalMedicine, and Critical Care",
+          "photo": "../../Co-Team/分中心/詹丽英+武汉大学人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-034",
+          "name": "王璐",
+          "role": "副主任医师",
+          "is_pi": false,
+          "introduction": "副主任医师",
+          "photo": "../../Co-Team/分中心/王璐+武汉大学人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-035",
+          "name": "潘舟",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/潘舟+武汉大学人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 3
+    },
+    {
+      "center_id": "shanghai-general",
+      "center_name": "上海市第一人民医院",
+      "center_type": "分中心",
+      "region": "上海",
+      "display_order": 10,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-001",
+          "name": "王瑞兰",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急诊危重病科主任，教授，博士生导师\n国务院津贴获得专家，上海领军人才\n上海市女医师协会急重症专委会主任委员、上海市医学会危重病专科分会副主任委员、上海市医学会感染与化疗专科分会副主任委员、上海市医师协会体外生命支持分会副主任委员\n2022上海医学科技奖一等奖第一完成人",
+          "introduction_en": "Director, Emergency and Critical Care Department; Professor and Doctoral Supervisor\nRecipient of the State Council Special Allowance and a Shanghai Leading Talent\nChair, Emergency and Critical Care Committee of the Shanghai Women Physicians Association; Vice Chair, Critical Care Medicine Branch of the Shanghai Medical Association; Vice Chair, Infection and Chemotherapy Branch of the Shanghai Medical Association; Vice Chair, Extracorporeal Life Support Branch of the Shanghai Medical Doctor Association\nFirst recipient of the First Prize of the 2022 Shanghai Medical Science and Technology Award",
+          "photo": "../../Co-Team/分中心/王瑞兰+上海市第一人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-002",
+          "name": "谢云",
+          "role": "副主任医师",
+          "is_pi": false,
+          "introduction": "副主任医师",
+          "photo": "../../Co-Team/分中心/谢云+上海市第一人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-003",
+          "name": "王金凤",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/王金凤+上海市第一人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-004",
+          "name": "陈珵",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/陈珵+上海市第一人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-005",
+          "name": "袁成斌",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/袁成斌+上海市第一人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-006",
+          "name": "余鑫",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/余鑫+上海市第一人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 6
+    },
+    {
+      "center_id": "shanghai-tenth",
+      "center_name": "同济大学附属第十人民医院",
+      "center_type": "分中心",
+      "region": "上海",
+      "display_order": 11,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-007",
+          "name": "彭沪",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急诊科主任医师 教授 博导\n上海市优秀技术带头人\n中华医学会急诊医学分会委员\n上海市医学会急诊医学专科分会副主任委员\n上海市中西医结合学会灾难医学分会副主任委员\n上海市医学会灾难医学专科分会委员兼秘书\n中国研究型医院协会脓毒症与休克分会 委员",
+          "introduction_en": "Chief Physician and Professor, Department of Emergency Medicine; Doctoral Supervisor\nShanghai Outstanding Technical Leader\nMember, Emergency Medicine Branch, Chinese Medical Association\nVice Chair, Emergency Medicine Branch, Shanghai Medical Association\nVice Chair, Disaster Medicine Branch, Shanghai Association of Integrative Medicine\nMember and Secretary, Disaster Medicine Branch, Shanghai Medical Association\nMember, Sepsis and Shock Branch, Chinese Research Hospital Association",
+          "photo": "../../Co-Team/分中心/彭沪+同济大学附属第十人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-008",
+          "name": "周书琴",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急诊科 科副主任\n住院医师规范化培训急诊基地 教学主任\n美国芝加哥大学、明尼苏达大学访问学者\n主持国家自然科学基金青年项目1项，上海市卫计委课题1项，同济大学及院级课题各1项，发表SCI论文10余篇，参编专著3部，获专利授权1项，教学课题2项",
+          "introduction_en": "Deputy Director, Department of Emergency Medicine\nTeaching Director, Emergency Medicine Residency Training Base\nVisiting Scholar at the University of Chicago and the University of Minnesota\nPrincipal investigator of one NSFC Young Scientists Fund project, one Shanghai Health Commission project, and institutional projects at Tongji University; author of more than 10 SCI-indexed papers, contributor to three monographs, holder of one granted patent, and investigator on two teaching projects",
+          "photo": "../../Co-Team/分中心/周书琴+同济大学附属第十人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-009",
+          "name": "宗洪凤",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/宗洪凤+同济大学附属第十人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-010",
+          "name": "玛力亚木·玉素甫",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/玛力亚木·玉素甫+同济大学附属第十人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 4
+    },
+    {
+      "center_id": "shanghai-renji",
+      "center_name": "上海交通大学医学院附属仁济医院",
+      "center_type": "分中心",
+      "region": "上海",
+      "display_order": 12,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-011",
+          "name": "何征宇",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "重症医学科 行政副主任\n“东方英才”计划 拔尖项目 负责人\n上海市杰出青年医学人才培养资助计划 负责人\n上海市医学会危重病专科分会 委员，呼吸学组 副组长\n国家卫健委人才交流服务中心 人才评价专家\n上海市重症医学医疗质控中心 质控专家",
+          "introduction_en": "Administrative Deputy Director, Department of Critical Care Medicine\nLead investigator, Shanghai Oriental Talent Program\nLead investigator, Shanghai Outstanding Young Medical Talent Development Program\nMember, Critical Care Medicine Branch of the Shanghai Medical Association; Deputy Lead, Respiratory Group\nExpert in talent evaluation, National Health Commission Talent Exchange Service Center\nQuality-control expert, Shanghai Critical Care Medicine Quality Control Center",
+          "photo": "../../Co-Team/分中心/何征宇+上海交通大学医学院附属仁济医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-012",
+          "name": "吴学玲",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "医学博士，博士后，交大医学院研究生导师\n美国加州大学旧金山分校高级访问学者\n中华医学会呼吸分会肺栓塞学组委员、胸膜学组委员、上海市医学会呼吸分会委员兼肺栓塞学组副组长\n主持国家自然基金3项，省部级课题8项，研究者发起研究8项、获军队科技进步奖1项，省部级科技进步奖1项",
+          "introduction_en": "MD, Postdoctoral Fellow, and Graduate Supervisor at Shanghai Jiao Tong University School of Medicine\nSenior Visiting Scholar, University of California, San Francisco\nMember, Pulmonary Embolism and Pleural Disease Groups of the Chinese Medical Association Respiratory Society; member and Deputy Lead of the Pulmonary Embolism Group, Shanghai Medical Association Respiratory Society\nPrincipal investigator of three NSFC projects, eight provincial or ministerial projects, and eight investigator-initiated studies; recipient of one military science and technology progress award and one provincial or ministerial science and technology progress award",
+          "photo": "../../Co-Team/分中心/吴学玲+上海交通大学医学院附属仁济医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-013",
+          "name": "王建李",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/王建李+上海交通大学医学院附属仁济医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 3
+    },
+    {
+      "center_id": "shanghai-shuguang",
+      "center_name": "上海中医药大学附属曙光医院",
+      "center_type": "分中心",
+      "region": "上海",
+      "display_order": 13,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-014",
+          "name": "施荣",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "重症医学科副主任（主持工作）\n中医学博士，主任医师，副教授，硕士生导师\n上海市中西医结合学会抗感染专业委员会主任委员\n中华中医药学会急诊危重症分会委员、上海市中西医结合学会重症医学专业委员会委员\n主持国家自然科学基金面上项目2项，上海市自然基金2项，上海中医药大学课程建设项目3项，主编学术论著2部",
+          "introduction_en": "Acting Deputy Director, Department of Critical Care Medicine\nDoctor of Traditional Chinese Medicine; Chief Physician, Associate Professor, and Master's Supervisor\nChair, Anti-infection Committee, Shanghai Association of Integrative Medicine\nMember, Emergency and Critical Care Branch of the China Association of Chinese Medicine and Critical Care Medicine Committee of the Shanghai Association of Integrative Medicine\nPrincipal investigator of two NSFC General Program projects, two Shanghai Natural Science Foundation projects, and three Shanghai University of Traditional Chinese Medicine curriculum-development projects; chief editor of two academic monographs",
+          "photo": "../../Co-Team/分中心/施荣+上海中医药大学附属曙光医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-015",
+          "name": "曲笑啸",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/曲笑啸+上海中医药大学附属曙光医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 2
+    },
+    {
+      "center_id": "shanghai-east",
+      "center_name": "同济大学附属东方医院",
+      "center_type": "分中心",
+      "region": "上海",
+      "display_order": 14,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-016",
+          "name": "唐伦先",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急诊科科主任，主任医师，教授，博士生导师\n上海市东方英才\n中国医师协会心脏重症专委会心肺脑复苏学组 副组长\n上海市女医师协会第一届急重症专业委员会 候任主任委员\n上海市医师协会急诊科医师分会 秘书\n上海市中西医结合学会第5届重症分会 候任主任委员",
+          "introduction_en": "Director, Department of Emergency Medicine; Chief Physician, Professor, and Doctoral Supervisor\nShanghai Oriental Talent\nDeputy Lead, Cardiopulmonary and Cerebral Resuscitation Group, Cardiac Critical Care Committee, Chinese Medical Doctor Association\nChair-elect, First Emergency and Critical Care Committee, Shanghai Women Physicians Association\nSecretary, Emergency Medicine Physician Branch, Shanghai Medical Doctor Association\nChair-elect, Fifth Critical Care Committee, Shanghai Association of Integrative Medicine",
+          "photo": "../../Co-Team/分中心/唐伦先+同济大学附属东方医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-017",
+          "name": "董天操",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/董天操+同济大学附属东方医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-018",
+          "name": "刘显东",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/刘显东+同济大学附属东方医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 3
+    },
+    {
+      "center_id": "shanghai-xinhua",
+      "center_name": "上海交通大学医学院附属新华医院",
+      "center_type": "分中心",
+      "region": "上海",
+      "display_order": 15,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-019",
+          "name": "高成金",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急诊科主任，博士生导师\n上海市医师协会急诊科医师分会副会长、上海市医学会重症应急救治分会副主任委员、上海市医院管理学会急诊分会副主任委员\n中国医药教育协会临床抗感染药物评价与管理分会常委",
+          "introduction_en": "Director, Emergency and Critical Care Center; Doctoral Supervisor\nVice President, Emergency Medicine Physician Branch of the Shanghai Medical Doctor Association; Vice Chair, Critical Emergency Care Branch of the Shanghai Medical Association; Vice Chair, Emergency Medicine Branch of the Shanghai Hospital Management Association\nStanding Committee Member, Clinical Anti-infective Drug Evaluation and Management Branch, China Medical Education Association",
+          "photo": "../../Co-Team/分中心/高成金+上海交通大学医学院附属新华医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [],
+      "member_count": 1
+    },
+    {
+      "center_id": "shanghai-jinshan",
+      "center_name": "复旦大学附属金山医院",
+      "center_type": "分中心",
+      "region": "上海",
+      "display_order": 16,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-020",
+          "name": "张琳",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急危重病中心主任\n复旦大学副教授，复旦大学硕士研究生导师\n上海市卫生健康委重点学科带头人\n上海市医学会急诊医学分会区协作组副组长\n美国叶史瓦大学爱因斯坦医学院访问学者\nEmergency and Critical Care Medicine青年编委",
+          "introduction_en": "Director, Emergency and Critical Care Center\nAssociate Professor and Master's Supervisor, Fudan University\nKey Discipline Leader, Shanghai Municipal Health Commission\nDeputy Lead, District Collaboration Group, Emergency Medicine Branch of the Shanghai Medical Association\nVisiting Scholar, Albert Einstein College of Medicine, Yeshiva University\nYoung Editorial Board Member, Emergency and Critical Care Medicine",
+          "photo": "../../Co-Team/分中心/张琳+复旦大学附属金山医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-021",
+          "name": "邵义如",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/邵义如+复旦大学附属金山医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-022",
+          "name": "胡寒冰",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/胡寒冰+复旦大学附属金山医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-023",
+          "name": "顾天衡",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/顾天衡+复旦大学附属金山医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 4
+    },
+    {
+      "center_id": "shanghai-pudong",
+      "center_name": "复旦大学附属浦东医院",
+      "center_type": "分中心",
+      "region": "上海",
+      "display_order": 17,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-024",
+          "name": "沈瑶",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "呼吸科主任医师，医学博士，复旦大学硕士生导师\n中国医师协会呼吸医师分会肺功能与临床呼吸生理委员会委员\n中国医师学会变态反应学分会 青年委员\n上海市医师协会变态反应医师分会第二届委员会委员\n上海市医学会呼吸病学专科分会第十二届委员会基层呼吸病防治联盟学组组员\n美国杜克大学访问学者",
+          "introduction_en": "Chief Physician in Respiratory Medicine; MD and Master's Supervisor at Fudan University\nMember, Pulmonary Function and Clinical Respiratory Physiology Committee, Respiratory Physicians Branch of the Chinese Medical Doctor Association\nYoung Member, Allergy Branch of the Chinese Medical Doctor Association\nMember, Second Allergy Physician Committee, Shanghai Medical Doctor Association\nMember, Primary Respiratory Disease Prevention Alliance Group, Twelfth Respiratory Medicine Committee of the Shanghai Medical Association\nVisiting Scholar, Duke University",
+          "photo": "../../Co-Team/分中心/沈瑶+复旦大学附属浦东医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-025",
+          "name": "田卫彬",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/田卫彬+复旦大学附属浦东医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 2
+    },
+    {
+      "center_id": "shanghai-minhang",
+      "center_name": "复旦大学附属闵行医院",
+      "center_type": "分中心",
+      "region": "上海",
+      "display_order": 18,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-026",
+          "name": "孙克玉",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "主任医师、复旦大学硕士研究生导师\n复旦大学附属闵行医院副院长\n复旦大学应急救援与急危重症研究所副所长\n国家临床重点专科学科带头人\n中华医学会急诊医学分会县域急诊急救学组委员\n上海市医师协会急诊科医师分会副会长\n上海市医学会急诊医学分会秘书兼委员",
+          "introduction_en": "Chief Physician and Master's Supervisor at Fudan University\nVice President, Minhang Hospital, Fudan University\nDeputy Director, Fudan University Institute of Emergency Rescue and Critical Care\nDiscipline Leader for a National Clinical Key Specialty\nMember, County Emergency Care Group, Emergency Medicine Branch of the Chinese Medical Association\nVice President, Emergency Medicine Physician Branch of the Shanghai Medical Doctor Association\nSecretary and Member, Emergency Medicine Branch of the Shanghai Medical Association",
+          "photo": "../../Co-Team/分中心/孙克玉+复旦大学附属闵行医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-027",
+          "name": "宋剑峰",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/宋剑峰+复旦大学附属闵行医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 2
+    },
+    {
+      "center_id": "shanghai-gongli",
+      "center_name": "公利医院",
+      "center_type": "分中心",
+      "region": "上海",
+      "display_order": 19,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-028",
+          "name": "陈淼",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急诊科主任、博士，主任医师，硕士研究生导师\n世界中医联合会急诊分会常务理事\n中国女医师协会急诊分专委会委员\n中国医学救援协会生命支持技术分会委员\n上海中医药学会急诊分会副主任委员\n曾获得国家自然科学基金、国家卫健委及省部级卫健委资助主持或参与课题14项",
+          "introduction_en": "Director, Department of Emergency Medicine; MD, Chief Physician, and Master's Supervisor\nExecutive Director, Emergency Medicine Branch of the World Federation of Chinese Medicine Societies\nMember, Emergency Medicine Committee of the Chinese Women Physicians Association\nMember, Life Support Technology Branch of the Chinese Medical Rescue Association\nVice Chair, Emergency Medicine Branch of the Shanghai Association of Traditional Chinese Medicine\nPrincipal investigator or participant in 14 projects funded by the NSFC, National Health Commission, and provincial or municipal health commissions",
+          "photo": "../../Co-Team/分中心/陈淼+公利医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-029",
+          "name": "陈雪梅",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/陈雪梅+公利医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 2
+    },
+    {
+      "center_id": "shanghai-fourth",
+      "center_name": "上海市第四人民医院",
+      "center_type": "分中心",
+      "region": "上海",
+      "display_order": 20,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-030",
+          "name": "李成",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "麻醉与围术期医学科副教授、主任医师、博士生导师\n国家临床重点专科行政主任，上海市麻醉与脑功能调控重点实验室研究员\n担任中华医学会麻醉学分会青年委员、中国心胸血管麻醉学会创新与推广分会常务委员、上海市医师协会麻醉科医师分会委员\n主持国家自然科学基金等省部级以上课题7项",
+          "introduction_en": "Associate Professor, Chief Physician, and Doctoral Supervisor in Anesthesiology and Perioperative Medicine\nAdministrative Director of a National Clinical Key Specialty and Researcher at the Shanghai Key Laboratory of Anesthesia and Brain Function Regulation\nYoung Committee Member, Chinese Society of Anesthesiology; Standing Committee Member, Innovation and Promotion Branch of the Chinese Society of Cardiothoracic and Vascular Anesthesia; Member, Anesthesiology Physician Branch of the Shanghai Medical Doctor Association\nPrincipal investigator of seven provincial-level or higher projects, including NSFC grants",
+          "photo": "../../Co-Team/分中心/李成+上海市第四人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [],
+      "member_count": 1
+    },
+    {
+      "center_id": "zhejiang-second",
+      "center_name": "浙江大学附属第二医院",
+      "center_type": "分中心",
+      "region": "浙江与福建",
+      "display_order": 30,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-031",
+          "name": "张召才",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "浙大二院重症医学科副主任\n浙江省“151人才”第三层次\n国家重点研发计划项目课题1项、国家自然科学基金面上项目5项、省部级课题11项\n获浙江省科技进步奖三等奖、浙江省医药卫生科技奖一等奖及二等奖各2项\n近年来在Pharmacologic Research，Advanced Science等杂志发表论文20余篇",
+          "introduction_en": "Deputy Director, Department of Critical Care Medicine, Second Affiliated Hospital of Zhejiang University\nSelected for the third tier of Zhejiang Province's 151 Talent Program\nPrincipal investigator of one National Key R&D Program project, five NSFC General Program projects, and 11 provincial or ministerial projects\nRecipient of a Third Prize of the Zhejiang Science and Technology Progress Award, plus one first prize and two second prizes of Zhejiang Medical and Health Science and Technology Awards\nAuthor of more than 20 papers in journals including Pharmacological Research and Advanced Science",
+          "photo": "../../Co-Team/分中心/张召才+浙江大学附属第二医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-032",
+          "name": "吉冉",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/吉冉+浙江大学附属第二医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 2
+    },
+    {
+      "center_id": "jiaxing-first",
+      "center_name": "嘉兴市第一医院",
+      "center_type": "分中心",
+      "region": "浙江与福建",
+      "display_order": 31,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-057",
+          "name": "朱建刚",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "重症医学科主任\n浙江省医师协会重症医学医师分会常委、浙江省医学会细菌感染与耐药防治分会常委、浙江省医疗数据产业研究会重症医学研究分会常委、浙江省数理医学会重症医学专业委员会常委、浙江省数理医学会重症医学专业委员会常委\n嘉兴市医学会重症医学分会副主委、嘉兴市医学会细菌感染与耐药防治分会副主委",
+          "introduction_en": "Director, Department of Critical Care Medicine\nStanding Committee Member, Critical Care Physician Branch of the Zhejiang Medical Doctor Association; Standing Committee Member, Bacterial Infection and Antimicrobial Resistance Branch of the Zhejiang Medical Association; Standing Committee Member, Critical Care Medicine Branch of the Zhejiang Medical Data Industry Research Association and Zhejiang Society for Mathematical Medicine\nVice Chair, Critical Care Medicine Branch and Bacterial Infection and Antimicrobial Resistance Branch, Jiaxing Medical Association",
+          "photo": "../../Co-Team/分中心/朱建刚+嘉兴市第一医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-058",
+          "name": "郁慧杰",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急诊科主任、主任医师 /副教授/硕士研究生导师\n环太湖创伤中心联盟副秘书长\n浙江省医学会急诊医学分会常委\n嘉兴市医学会急诊学分会主任委员\n近嘉兴市首批杰出人才\n浙江省重点临床专科急诊医学学科带头人\n嘉兴市急诊医学学科带头人",
+          "introduction_en": "Director, Department of Emergency Medicine; Chief Physician, Associate Professor, and Master's Supervisor\nDeputy Secretary-General, Taihu Lake Trauma Center Alliance\nStanding Committee Member, Emergency Medicine Branch, Zhejiang Medical Association\nChair, Emergency Medicine Branch, Jiaxing Medical Association\nSelected among Jiaxing's first cohort of outstanding talents\nDiscipline Leader for Emergency Medicine, a Zhejiang Provincial Key Clinical Specialty\nEmergency Medicine Discipline Leader, Jiaxing",
+          "photo": "../../Co-Team/分中心/郁慧杰+嘉兴市第一医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-059",
+          "name": "费丹婷",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/费丹婷+嘉兴市第一医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-060",
+          "name": "许董俊",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/许董俊+嘉兴市第一医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-061",
+          "name": "顾逸晨",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/顾逸晨+嘉兴市第一医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-062",
+          "name": "李家静",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/李家静+嘉兴市第一医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 6
+    },
+    {
+      "center_id": "quanzhou-first",
+      "center_name": "福建省泉州市第一医院",
+      "center_type": "分中心",
+      "region": "浙江与福建",
+      "display_order": 32,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-046",
+          "name": "朱景法",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "副主任医师，急诊科党支部书记、急诊科主任、创伤外科主任\n中国老年医学会急诊医学分会委员\n环太湖创伤中心联盟常委\n福建省基层卫生协会基层急诊医学专委会副主任委员\n泉州市医学会急诊医学分会主任委员\n泉州市急诊急救学会副会长",
+          "introduction_en": "Associate Chief Physician; Party Branch Secretary and Director of Emergency Medicine and Trauma Surgery\nMember, Emergency Medicine Branch, Chinese Geriatrics Society\nStanding Committee Member, Taihu Lake Trauma Center Alliance\nVice Chair, Primary Emergency Medicine Committee, Fujian Primary Health Association\nChair, Emergency Medicine Branch, Quanzhou Medical Association\nVice President, Quanzhou Emergency Care Society",
+          "photo": "../../Co-Team/分中心/朱景法+福建省泉州市第一医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [],
+      "member_count": 1
+    },
+    {
+      "center_id": "jiangsu-subei",
+      "center_name": "江苏省苏北人民医院",
+      "center_type": "分中心",
+      "region": "江苏",
+      "display_order": 40,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-047",
+          "name": "谈定玉",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "硕士生导师、北京协和医学博士、主任医师\n中国医师协会急诊分会急性感染学组副组长\n江苏省医师协会灾难分会副主任委员、江苏省医学会灾难分会委员兼秘书\n江苏省中西医结合学会灾害医学分会常委\n扬州医学会灾难医学专委会主任委员、急诊专委会副主任委员\n中国医师协会“急诊未来”杰出青年医师荣誉获得者",
+          "introduction_en": "Master's Supervisor; MD, Peking Union Medical College; Chief Physician\nDeputy Lead, Acute Infection Group, Emergency Medicine Branch of the Chinese Medical Doctor Association\nVice Chair, Disaster Medicine Branch of the Jiangsu Medical Doctor Association; Member and Secretary, Disaster Medicine Branch of the Jiangsu Medical Association\nStanding Committee Member, Disaster Medicine Branch of the Jiangsu Association of Integrative Medicine\nChair, Disaster Medicine Committee and Vice Chair, Emergency Medicine Committee, Yangzhou Medical Association\nRecipient of the Chinese Medical Doctor Association's Outstanding Young Emergency Physician honor",
+          "photo": "../../Co-Team/分中心/谈定玉+江苏省苏北人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-048",
+          "name": "唐传东",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/唐传东+江苏省苏北人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 2
+    },
+    {
+      "center_id": "wuxi-peoples",
+      "center_name": "南京医科大学附属无锡人民医院",
+      "center_type": "分中心",
+      "region": "江苏",
+      "display_order": 41,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-049",
+          "name": "张云",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急诊医学科主任，急诊医学博士，副教授，硕导\n农工党党员，无锡市政协委员\n中华医学会急诊医学分会围急危重症学组委员、江苏省医学会急诊医学分会委员、江苏省医学会中毒学分会委员\n江苏省医院管理协会急诊管理专业委员会常务委员、江苏省研究型医院协会急诊专业委员会常务委员",
+          "introduction_en": "Director, Department of Emergency Medicine; PhD in Emergency Medicine, Associate Professor, and Master's Supervisor\nMember of the Chinese Peasants' and Workers' Democratic Party and Member of the Wuxi Municipal Committee of the Chinese People's Political Consultative Conference\nMember, Peri-emergency and Critical Care Group of the Emergency Medicine Branch, Chinese Medical Association; member of the Emergency Medicine and Toxicology Branches of the Jiangsu Medical Association\nStanding Committee Member, Emergency Management Committee of the Jiangsu Hospital Management Association and Emergency Medicine Committee of the Jiangsu Research Hospital Association",
+          "photo": "../../Co-Team/分中心/张云+南京医科大学附属无锡人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-050",
+          "name": "高霏",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急诊科副主任医师，后备学科带头人\n南京医科大学副教授，硕士生导师\n无锡市“双百”中青年医疗卫生拔尖人才\n美国圣贝纳丁医疗中心访问学者\n获得江苏省科技进步一等奖、华夏医学奖一等奖\n无锡市卫健委“最美巾帼奋斗者”\n江苏省医学会急诊医学分会青年委员",
+          "introduction_en": "Associate Chief Physician in Emergency Medicine and reserve discipline leader\nAssociate Professor and Master's Supervisor, Nanjing Medical University\nSelected as a Wuxi Double-Hundred young and mid-career medical and health talent\nVisiting Scholar, St. Bernardine Medical Center, United States\nRecipient of first prizes in the Jiangsu Science and Technology Progress Award and Huaxia Medical Award\nNamed a Wuxi Health Commission 'Most Beautiful Women's Striver'\nYoung Committee Member, Emergency Medicine Branch, Jiangsu Medical Association",
+          "photo": "../../Co-Team/分中心/高霏+南京医科大学附属无锡人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [],
+      "member_count": 2
+    },
+    {
+      "center_id": "wuxi-huishan",
+      "center_name": "无锡市惠山区人民医院",
+      "center_type": "分中心",
+      "region": "江苏",
+      "display_order": 42,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-051",
+          "name": "卢峰",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "无锡市惠山区人民医院，党委书记\n扬州大学医学院急诊医学硕士研究生导师\n中华医学会急诊医学分会基层学组组长\n江苏省整合医学研究会县区医院分会主任委员\n无锡市急救协会副会长\n无锡市医学会急诊医学分会副主任委员\n无锡市惠山区科学技术学会副主席",
+          "introduction_en": "Party Secretary, Huishan People's Hospital, Wuxi\nMaster's Supervisor in Emergency Medicine, Yangzhou University Medical College\nHead, Primary Care Group, Emergency Medicine Branch of the Chinese Medical Association\nChair, County and District Hospital Branch, Jiangsu Integrative Medicine Research Association\nVice President, Wuxi Emergency Rescue Association\nVice Chair, Emergency Medicine Branch, Wuxi Medical Association\nVice President, Huishan District Association for Science and Technology, Wuxi",
+          "photo": "../../Co-Team/分中心/卢峰+无锡市惠山区人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-052",
+          "name": "邹静蓉",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急诊医学科主任兼学科带头人\n中华医学会急诊医学分会县域急诊急救学组委员\n江苏省整合医学研究会创伤专业委员会常务委员\n无锡市医学会急诊医学分会委员\n无锡市急诊医学科质控中心委员",
+          "introduction_en": "Director and Discipline Leader, Department of Emergency Medicine\nMember, County Emergency Care Group, Emergency Medicine Branch of the Chinese Medical Association\nStanding Committee Member, Trauma Committee of the Jiangsu Integrative Medicine Research Association\nMember, Emergency Medicine Branch, Wuxi Medical Association\nMember, Quality Control Center for Emergency Medicine, Wuxi",
+          "photo": "../../Co-Team/分中心/邹静蓉+无锡市惠山区人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-053",
+          "name": "张巍",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "重症医学科主任\n江苏省重症联盟理事\n“惠山名医堂”专科名医\n惠山首届工匠名医\n无锡市医德之星",
+          "introduction_en": "Director, Department of Critical Care Medicine\nCouncil Member, Jiangsu Critical Care Alliance\nSpecialty Distinguished Physician, Huishan Medical Experts Hall\nHonored as Huishan's first Craftsman Physician\nWuxi Medical Ethics Star",
+          "photo": "../../Co-Team/分中心/张巍+无锡市惠山区人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-054",
+          "name": "王日",
+          "role": "助理研究员",
+          "is_pi": false,
+          "introduction": "助理研究员",
+          "photo": "../../Co-Team/分中心/王日+无锡市惠山区人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-055",
+          "name": "石晓晨",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/石晓晨+无锡市惠山区人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-056",
+          "name": "刘永海",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/刘永海+无锡市惠山区人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 6
+    },
+    {
+      "center_id": "yixing-peoples",
+      "center_name": "宜兴市人民医院",
+      "center_type": "分中心",
+      "region": "江苏",
+      "display_order": 43,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-063",
+          "name": "陆俊杰",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "重症医学科科主任\n宜兴市学术技术带头人，宜兴市重症医学学组组长硕士生导师、江苏大学兼职教授、宜兴市政协委员\n中国医学救援协会家庭救护分会常务理事\n无锡市医学会重症医学分会副主任委员\n无锡市医师协会急危重症专业委员会副会长",
+          "introduction_en": "Director, Department of Critical Care Medicine\nYixing academic and technical leader; head of the Yixing Critical Care Medicine Group; Master's Supervisor; Adjunct Professor at Jiangsu University; member of the Yixing Municipal Committee of the Chinese People's Political Consultative Conference\nExecutive Director, Family First Aid Branch of the Chinese Medical Rescue Association\nVice Chair, Critical Care Medicine Branch, Wuxi Medical Association\nVice President, Emergency and Critical Care Committee, Wuxi Medical Doctor Association",
+          "photo": "../../Co-Team/分中心/陆俊杰+宜兴市人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [],
+      "member_count": 1
+    },
+    {
+      "center_id": "jiangyin-peoples",
+      "center_name": "江阴市人民医院",
+      "center_type": "分中心",
+      "region": "江苏",
+      "display_order": 44,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-064",
+          "name": "徐佳宁",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "急诊医学科副主任、主任医师，医学博士，硕士研究生导师\n英国伦敦圣乔治大学医院访问学者\n无锡医学会创伤医学会副主任委员\n无锡医学会中毒学分会副主任委员\n太湖人才计划--后备拔尖人才\n江阴市医学会中毒学分会主任委员",
+          "introduction_en": "Deputy Director, Department of Emergency Medicine; Chief Physician, MD, and Master's Supervisor\nVisiting Scholar, St George's Hospital, London\nVice Chair, Trauma Medicine Society and Toxicology Branch, Wuxi Medical Association\nSelected for the Taihu Lake Talent Program as a reserve leading talent\nChair, Toxicology Branch, Jiangyin Medical Association",
+          "photo": "../../Co-Team/分中心/徐佳宁+江阴市人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [],
+      "member_count": 1
+    },
+    {
+      "center_id": "guangdong-provincial",
+      "center_name": "广东省人民医院",
+      "center_type": "分中心",
+      "region": "中部与华南",
+      "display_order": 50,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-036",
+          "name": "邓医宇",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "广东省人民医院重症监护一科主任\n国务院特殊津贴专家、广东省杰出青年医学人才、广东省基层医药学会重症医学分会主任委员\n主持国家级项目5项，科技部重点研发项目子课题1项，省部级课题3项等\n近年来发表在Nature communication等杂志发表SCI论文40余篇",
+          "introduction_en": "Director, First Intensive Care Unit, Guangdong Provincial People's Hospital\nRecipient of the State Council Special Allowance, Guangdong Outstanding Young Medical Talent, and Chair of the Critical Care Medicine Branch of the Guangdong Primary Medicine Association\nPrincipal investigator of five national projects, one subproject of a Ministry of Science and Technology key R&D program, and three provincial or ministerial projects\nAuthor of more than 40 SCI-indexed papers in journals including Nature Communications",
+          "photo": "../../Co-Team/分中心/邓医宇+广东省人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-037",
+          "name": "林艺延",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/林艺延+广东省人民医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-038",
+          "name": "林思敏",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/林思敏+广东省人民医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 3
+    },
+    {
+      "center_id": "zhengzhou-first",
+      "center_name": "郑州大学第一附属医院",
+      "center_type": "分中心",
+      "region": "中部与华南",
+      "display_order": 51,
+      "order_status": "pending-leadership-review",
+      "pis": [
+        {
+          "member_id": "member-043",
+          "name": "刘奇",
+          "role": "PI",
+          "is_pi": true,
+          "introduction": "南院区EICU主任，主任医师，研究生导师\n河南省中青年卫生健康科技创新杰青人才\n河南省卫生健康中青年学科急诊重症医学带头人\n河南省医学会急诊医师分会常务委员\n河南省医院协会急救分会第四届常务委员\n中华医学会急诊医学分会第十届委员会危重病质量管理学组成员、中国医师协会急诊医师分会循环与血流动力学学组委员",
+          "introduction_en": "Director, EICU, South Campus; Chief Physician and Graduate Supervisor\nSelected as a Henan Province outstanding young and mid-career health science and technology innovator\nYoung and mid-career discipline leader in emergency and critical care medicine, Henan Province\nStanding Committee Member, Emergency Physician Branch, Henan Medical Association\nStanding Committee Member, Fourth Emergency Care Branch, Henan Hospital Association\nMember, Critical Illness Quality Management Group, Tenth Committee of the Emergency Medicine Branch of the Chinese Medical Association; Member, Circulation and Hemodynamics Group, Emergency Physician Branch of the Chinese Medical Doctor Association",
+          "photo": "../../Co-Team/分中心/刘奇+郑州大学第一附属医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "members": [
+        {
+          "member_id": "member-044",
+          "name": "董彬彬",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/董彬彬+郑州大学第一附属医院.png",
+          "publication_status": "approved"
+        },
+        {
+          "member_id": "member-045",
+          "name": "赵文新",
+          "role": "医师",
+          "is_pi": false,
+          "introduction": "医师",
+          "photo": "../../Co-Team/分中心/赵文新+郑州大学第一附属医院.png",
+          "publication_status": "approved"
+        }
+      ],
+      "member_count": 3
+    }
+  ]
+}

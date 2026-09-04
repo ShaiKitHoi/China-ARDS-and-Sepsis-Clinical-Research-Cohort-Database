@@ -1,0 +1,262 @@
+{
+  "source": "archived outside repository: 主中心_团队成员照片映射.xlsx",
+  "summary": {
+    "institution": "复旦大学附属中山医院",
+    "institution_en": "Zhongshan Hospital, Fudan University",
+    "members": 51,
+    "departments": 5,
+    "pis": 6
+  },
+  "departments": [
+    {
+      "id": "clinical-research-support",
+      "name": "临床研究支持团队",
+      "name_en": "Clinical Research Support Team",
+      "member_label": "医生",
+      "member_label_en": "Physician",
+      "members": [
+        {
+          "name": "林梦娜",
+          "photo": "../../Co-Team/主中心/林梦娜+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "徐斐翔",
+          "photo": "../../Co-Team/主中心/徐斐翔+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "陈琛",
+          "photo": "../../Co-Team/主中心/陈琛+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "田学",
+          "photo": "../../Co-Team/主中心/田学+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "丁海林",
+          "photo": "../../Co-Team/主中心/丁海林+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "卢苏",
+          "photo": "../../Co-Team/主中心/卢苏+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "俞尧",
+          "photo": "../../Co-Team/主中心/俞尧+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "邝中淑",
+          "photo": "../../Co-Team/主中心/邝中淑+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "陈遥",
+          "photo": "../../Co-Team/主中心/陈遥+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "郑娜",
+          "photo": "../../Co-Team/主中心/郑娜+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "薛明明",
+          "photo": "../../Co-Team/主中心/薛明明+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "陈玉梅",
+          "photo": "../../Co-Team/主中心/陈玉梅+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "周燕南",
+          "photo": "../../Co-Team/主中心/周燕南+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "龙香宇",
+          "photo": "../../Co-Team/主中心/龙香宇+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "曹一羽",
+          "photo": "../../Co-Team/主中心/曹一羽+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "许世杰",
+          "photo": "../../Co-Team/主中心/许世杰+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "阙思瑾",
+          "photo": "../../Co-Team/主中心/阙思瑾+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "陈安书",
+          "photo": "../../Co-Team/主中心/陈安书+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "王学超",
+          "photo": "../../Co-Team/主中心/王学超+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "李飞",
+          "photo": "../../Co-Team/主中心/李飞+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "曹琪",
+          "photo": "../../Co-Team/主中心/曹琪+复旦大学附属中山医院.png"
+        }
+      ]
+    },
+    {
+      "id": "basic-research-support",
+      "name": "基础研究支持团队",
+      "name_en": "Basic Research Support Team",
+      "member_label": "博士",
+      "member_label_en": "PhD",
+      "members": [
+        {
+          "name": "吴宏玉",
+          "photo": "../../Co-Team/主中心/吴宏玉+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "林锴珺",
+          "photo": "../../Co-Team/主中心/林锴珺+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "罗悦",
+          "photo": "../../Co-Team/主中心/罗悦+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "常美佳",
+          "photo": "../../Co-Team/主中心/常美佳+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "邢玲玉",
+          "photo": "../../Co-Team/主中心/邢玲玉+复旦大学附属中山医院.jpg"
+        },
+        {
+          "name": "何巧兰",
+          "photo": "../../Co-Team/主中心/何巧兰+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "袁莉",
+          "photo": "../../Co-Team/主中心/袁莉+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "沈永琦",
+          "photo": "../../Co-Team/主中心/沈永琦+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "张伟",
+          "photo": "../../Co-Team/主中心/张伟+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "周晴",
+          "photo": "../../Co-Team/主中心/周晴+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "张雨婷",
+          "photo": "../../Co-Team/主中心/张雨婷+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "刘方舟",
+          "photo": "../../Co-Team/主中心/刘方舟+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "杨依霖",
+          "photo": "../../Co-Team/主中心/杨依霖+复旦大学附属中山医院.png"
+        }
+      ]
+    },
+    {
+      "id": "biostatistics-bioinformatics",
+      "name": "统计与生物信息团队",
+      "name_en": "Biostatistics & Bioinformatics Team",
+      "member_label": "博士",
+      "member_label_en": "PhD",
+      "members": [
+        {
+          "name": "黄丽红",
+          "is_pi": true,
+          "photo": "../../Co-Team/主中心/黄丽红+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "姜宁",
+          "is_pi": true,
+          "photo": "../../Co-Team/主中心/姜宁+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "裘天颐",
+          "is_pi": true,
+          "photo": "../../Co-Team/主中心/裘天颐+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "乔欣曼",
+          "photo": "../../Co-Team/主中心/乔欣曼+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "梁斐",
+          "photo": "../../Co-Team/主中心/梁斐+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "李浩",
+          "photo": "../../Co-Team/主中心/李浩+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "卢珍珍",
+          "photo": "../../Co-Team/主中心/卢珍珍+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "李秉哲",
+          "photo": "../../Co-Team/主中心/李秉哲+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "王莹莹",
+          "photo": "../../Co-Team/主中心/王莹莹+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "李文文",
+          "photo": "../../Co-Team/主中心/李文文+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "陈晨鑫",
+          "photo": "../../Co-Team/主中心/陈晨鑫+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "邓欣然",
+          "photo": "../../Co-Team/主中心/邓欣然+复旦大学附属中山医院.png"
+        }
+      ]
+    },
+    {
+      "id": "artificial-intelligence",
+      "name": "人工智能团队",
+      "name_en": "Artificial Intelligence Team",
+      "member_label": "博士",
+      "member_label_en": "PhD",
+      "members": [
+        {
+          "name": "阮彤",
+          "is_pi": true,
+          "photo": "../../Co-Team/主中心/阮彤+复旦大学附属中山医院.png"
+        }
+      ]
+    },
+    {
+      "id": "imaging-omics",
+      "name": "影像组学团队",
+      "name_en": "Imaging Omics Team",
+      "member_label": "博士",
+      "member_label_en": "PhD",
+      "members": [
+        {
+          "name": "陈磊",
+          "is_pi": true,
+          "photo": "../../Co-Team/主中心/陈磊+复旦大学附属中山医院.png"
+        },
+        {
+          "name": "曹子睿",
+          "photo": "../../Co-Team/主中心/曹子睿+复旦大学附属中山医院.jpeg"
+        },
+        {
+          "name": "曾研",
+          "photo": "../../Co-Team/主中心/曾研+复旦大学附属中山医院.png"
+        }
+      ]
+    }
+  ]
+}
