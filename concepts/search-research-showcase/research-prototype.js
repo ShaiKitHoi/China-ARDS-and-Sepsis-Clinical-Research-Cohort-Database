@@ -277,7 +277,6 @@
   ];
 
   const variantSections = document.querySelectorAll("[data-variant]");
-  const variantLabel = document.querySelector("#variant-label");
   const navToggle = document.querySelector(".nav-toggle");
   const nav = document.querySelector(".main-nav");
 
@@ -447,50 +446,19 @@
     updateToggle();
   }
 
-  function requestedVariant() {
-    const value = new URLSearchParams(window.location.search).get("variant");
-    return variants.some((variant) => variant.key === value) ? value : "A";
-  }
-
-  function renderVariant(key) {
-    const current = variants.find((variant) => variant.key === key) || variants[0];
+  function renderVariant() {
+    const current = variants[0];
     document.body.dataset.currentVariant = current.key;
     variantSections.forEach((section) => {
       const active = section.dataset.variant === current.key;
       section.hidden = !active;
       section.setAttribute("aria-hidden", active ? "false" : "true");
     });
-    variantLabel.textContent = `${current.key} — ${current.name}`;
-    document.title = `方案 ${current.key} · ${current.name} | SEARCH 研究与成果`;
-    window.scrollTo({ top: 0, behavior: "instant" });
+    document.title = "研究与成果 · SEARCH";
   }
-
-  function setVariant(key) {
-    const url = new URL(window.location.href);
-    url.searchParams.set("variant", key);
-    history.replaceState({ variant: key }, "", url);
-    renderVariant(key);
-  }
-
-  function cycle(direction) {
-    const currentIndex = variants.findIndex((variant) => variant.key === document.body.dataset.currentVariant);
-    const nextIndex = (currentIndex + direction + variants.length) % variants.length;
-    setVariant(variants[nextIndex].key);
-  }
-
-  document.querySelectorAll("[data-direction]").forEach((button) => {
-    button.addEventListener("click", () => cycle(button.dataset.direction === "next" ? 1 : -1));
-  });
 
   document.querySelectorAll("[data-explorer-track]").forEach((button) => {
     button.addEventListener("click", () => renderExplorer(button.dataset.explorerTrack));
-  });
-
-  document.addEventListener("keydown", (event) => {
-    const target = event.target;
-    if (target instanceof HTMLElement && (target.matches("input, textarea, [contenteditable]") || target.isContentEditable)) return;
-    if (event.key === "ArrowLeft") cycle(-1);
-    if (event.key === "ArrowRight") cycle(1);
   });
 
   navToggle.addEventListener("click", () => {
@@ -498,9 +466,8 @@
     navToggle.setAttribute("aria-expanded", open ? "true" : "false");
   });
 
-  window.addEventListener("popstate", () => renderVariant(requestedVariant()));
   renderPaperLists();
   renderExplorer("ards");
   renderPublicationArchive();
-  renderVariant(requestedVariant());
+  renderVariant();
 })();

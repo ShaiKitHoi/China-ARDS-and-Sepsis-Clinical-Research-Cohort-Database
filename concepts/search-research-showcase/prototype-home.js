@@ -1,11 +1,6 @@
 (function () {
-  const variants = [
-    { key: "A", name: "人文叙事" },
-    { key: "B", name: "学术编辑部" },
-    { key: "C", name: "队列数据优先" },
-  ];
+  const variant = { key: "A", name: "人文叙事" };
   const sections = document.querySelectorAll("[data-variant]");
-  const label = document.querySelector("#variant-label");
   const navToggle = document.querySelector(".nav-toggle");
   const nav = document.querySelector(".main-nav");
   const sceneContainer = document.querySelector(".a-hero-visual");
@@ -36,29 +31,14 @@
     image.src = scene.src;
   });
 
-  function requestedVariant() {
-    const value = new URLSearchParams(window.location.search).get("variant");
-    return variants.some((variant) => variant.key === value) ? value : "A";
-  }
-
-  function render(key) {
-    const current = variants.find((variant) => variant.key === key) || variants[0];
-    document.body.dataset.currentVariant = current.key;
+  function render() {
+    document.body.dataset.currentVariant = variant.key;
     sections.forEach((section) => {
-      const active = section.dataset.variant === current.key;
+      const active = section.dataset.variant === variant.key;
       section.hidden = !active;
       section.setAttribute("aria-hidden", active ? "false" : "true");
     });
-    label.textContent = `${current.key} — ${current.name}`;
-    document.title = `方案 ${current.key} · ${current.name} | SEARCH 首页视觉原型`;
-    window.scrollTo({ top: 0, behavior: "instant" });
-  }
-
-  function setVariant(key) {
-    const url = new URL(window.location.href);
-    url.searchParams.set("variant", key);
-    window.history.replaceState({ variant: key }, "", url);
-    render(key);
+    document.title = "SEARCH | Clinical Research Collaboration Network";
   }
 
   function requestedScene() {
@@ -128,16 +108,6 @@
     }, sceneInterval);
   }
 
-  function cycle(direction) {
-    const currentIndex = variants.findIndex((variant) => variant.key === document.body.dataset.currentVariant);
-    const nextIndex = (currentIndex + direction + variants.length) % variants.length;
-    setVariant(variants[nextIndex].key);
-  }
-
-  document.querySelectorAll("[data-direction]").forEach((button) => {
-    button.addEventListener("click", () => cycle(button.dataset.direction === "next" ? 1 : -1));
-  });
-
   sceneButtons.forEach((button) => {
     button.addEventListener("click", () => setScene(button.dataset.scene));
   });
@@ -154,23 +124,15 @@
   });
   reducedMotion.addEventListener("change", startSceneRotation);
 
-  document.addEventListener("keydown", (event) => {
-    const target = event.target;
-    if (target instanceof HTMLElement && (target.matches("input, textarea, [contenteditable]") || target.isContentEditable)) return;
-    if (event.key === "ArrowLeft") cycle(-1);
-    if (event.key === "ArrowRight") cycle(1);
-  });
-
   navToggle.addEventListener("click", () => {
     const open = nav.classList.toggle("is-open");
     navToggle.setAttribute("aria-expanded", open ? "true" : "false");
   });
 
   window.addEventListener("popstate", () => {
-    render(requestedVariant());
     renderScene(requestedScene());
   });
-  render(requestedVariant());
+  render();
   renderScene(requestedScene(), false);
   startSceneRotation();
 })();

@@ -18,7 +18,7 @@ python3 scripts/preview_site.py
 然后访问：
 
 ```text
-http://127.0.0.1:4176/concepts/search-research-showcase/index.html?variant=A
+http://127.0.0.1:4176/concepts/search-research-showcase/index.html
 ```
 
 必须通过 HTTP 预览页面；直接双击 HTML 以 `file://` 打开时，浏览器可能阻止读取成员 JSON 数据。
@@ -26,7 +26,7 @@ http://127.0.0.1:4176/concepts/search-research-showcase/index.html?variant=A
 ## 目录说明
 
 - `concepts/search-research-showcase/`：当前网站的 HTML、CSS、JavaScript、JSON 和页面图片。
-- `Co-Team/主中心/`、`Co-Team/分中心/`：网站实际使用的团队成员照片。
+- `concepts/search-research-showcase/assets/team/`：网站实际使用的团队成员照片，以 Vercel 可稳定提供的相对路径引用。
 - `Document/`：文件中心提供下载的公开 PDF。
 - `icon/`：网站共用的视觉素材。
 - `scripts/preview_site.py`：本地无缓存预览服务器。

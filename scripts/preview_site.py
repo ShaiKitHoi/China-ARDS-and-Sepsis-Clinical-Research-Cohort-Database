@@ -23,8 +23,6 @@ from urllib.parse import unquote, urlparse
 ROOT = Path(__file__).resolve().parent.parent
 WATCH_ROOTS = (
     ROOT / "concepts" / "search-research-showcase",
-    ROOT / "Co-Team" / "主中心",
-    ROOT / "Co-Team" / "分中心",
 )
 WATCH_SUFFIXES = {".html", ".css", ".js", ".json"}
 VERSION_PATH = "/__search_preview_version__"
@@ -111,7 +109,7 @@ def main() -> None:
     args = parser.parse_args()
 
     server = ThreadingHTTPServer((args.host, args.port), PreviewHandler)
-    url = f"http://{args.host}:{args.port}/concepts/search-research-showcase/index.html?variant=A"
+    url = f"http://{args.host}:{args.port}/concepts/search-research-showcase/index.html"
     print("SEARCH 本地实时预览已启动（按 Ctrl+C 停止）")
     print(f"首页：{url}")
     print(f"合作单位：http://{args.host}:{args.port}/concepts/search-research-showcase/network.html")

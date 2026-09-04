@@ -12,29 +12,21 @@
 
 五个页面共用导航和中英文切换逻辑。页面只读取仓库内的静态资源，不调用 DeepSeek、OpenAI 或其他外部 AI 服务。
 
-## 首页视觉方案
+## 视觉方向
 
-首页可通过底部切换器、键盘左右方向键或 URL 参数切换：
+网站固定采用 A — 人文叙事方向，以项目初心、负责人和团队协作为入口；已移除视觉原型提示和页面方向切换器。
 
-- `?variant=A`：人文叙事，以项目初心、负责人和团队协作为入口
-- `?variant=B`：学术编辑部，以代表成果和研究目录为入口
-- `?variant=C`：队列数据优先，以入组、样本和协作网络为入口
+首页右侧临床场景仍可通过 `scene` 参数切换：
 
-方案 A 的右侧临床场景还可以通过 `scene` 参数比较：
-
-- `?variant=A&scene=icu`：ICU 多学科床旁协作（默认）
-- `?variant=A&scene=ecmo`：ECMO 团队检查循环管路
-- `?variant=A&scene=night`：ICU 夜班协同照护
+- `?scene=icu`：ICU 多学科床旁协作（默认）
+- `?scene=ecmo`：ECMO 团队检查循环管路
+- `?scene=night`：ICU 夜班协同照护
 
 三张图片均为 AI 生成的场景示意图，不代表真实病例或本项目的实际工作记录；正式上线时需保留说明，或替换为已获公开授权的真实团队照片。
 
 ## 研究与成果页面
 
-`research.html` 将研究方向和科研成果合并，并把代表论文陈列到对应研究主线。通过底部切换器、键盘左右方向键或 URL 参数比较三种结构：
-
-- `?variant=A`：研究图谱，按四条研究主线纵向展开（默认）
-- `?variant=B`：研究浏览器，选择单一方向集中阅读
-- `?variant=C`：证据矩阵，横向比较研究问题、方法和成果
+`research.html` 将研究方向和科研成果合并，并把代表论文陈列到对应研究主线，固定以研究图谱结构呈现。
 
 论文卡片链接至正式文献记录；桌面端悬停或键盘聚焦时显示论文首页缩略图。用于生成缩略图的开放获取论文 PDF、来源审阅记录和其他研究源资料已经归档到仓库外，不参与网页运行。
 
@@ -42,8 +34,8 @@
 
 `network.html` 使用 `data/centers.json` 和 `data/main-center.json` 渲染主中心、分中心、PI 和成员展开区域。网页运行只依赖两个 JSON 文件及下列最终照片目录：
 
-- `Co-Team/主中心/`
-- `Co-Team/分中心/`
+- `assets/team/main/`
+- `assets/team/branch/`
 
 照片映射工作簿和历史映射表已归档到仓库外的工作区备份中；如需重新生成成员数据，请先从备份恢复对应工作簿。
 
@@ -60,7 +52,7 @@ python3 scripts/preview_site.py
 然后打开：
 
 ```text
-http://127.0.0.1:4176/concepts/search-research-showcase/index.html?variant=A
+http://127.0.0.1:4176/concepts/search-research-showcase/index.html
 ```
 
 预览服务会禁用缓存，并在 HTML、CSS、JavaScript、JSON 或网站使用的团队照片发生变化后自动刷新。
