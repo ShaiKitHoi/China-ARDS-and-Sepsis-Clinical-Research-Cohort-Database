@@ -155,7 +155,7 @@ html[lang="en"] .brand-copy small { display: block; margin-top: 0; overflow: vis
 .leadership-intro h2 span, .leadership-intro h2 em { display: block; }
 .leadership-intro h2 em { color: #bcd6ff; font-style: normal; }
 .leadership-intro > p { max-width: 520px; margin: 0 0 4px; color: rgba(255,255,255,.78); font-size: 1.06rem; line-height: 1.85; }
-.leadership-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(280px, 323px) minmax(0, 1fr); gap: 18px; margin-top: 38px; }
+.leadership-grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(190px, 194px) minmax(0, 1fr); gap: 18px; margin-top: 38px; }
 .lead-pi-card, .team-photo-card { overflow: hidden; border: 1px solid rgba(255,255,255,.28); background: rgba(4,20,58,.38); }
 .lead-pi-card { display: grid; grid-template-rows: 1fr auto; }
 .lead-pi-image { min-height: 0; overflow: hidden; background: #fff; }
