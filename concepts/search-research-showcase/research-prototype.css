@@ -167,18 +167,18 @@
 .archive-metrics > div { min-height: 105px; display: flex; flex-direction: column; justify-content: center; padding: 16px 18px; border-right: 1px solid #d5dce6; }
 .archive-metrics > div:last-child { border-right: 0; }
 .archive-metrics strong { color: var(--blue); font-family: var(--serif); font-size: 2.2rem; line-height: 1; }
-.archive-metrics span { margin-top: 9px; color: #667286; font-size: .58rem; font-weight: 700; }
+.archive-metrics span { margin-top: 9px; color: #667286; font-size: calc(.58rem + 4px); font-weight: 700; }
 .archive-toggle { min-width: 125px; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 16px; border: 1px solid var(--blue); padding: 13px 14px; background: var(--blue); color: #fff; }
-.archive-toggle b { font-size: .63rem; }
+.archive-toggle b { font-size: calc(.63rem + 4px); }
 .archive-toggle i { font-size: 1.05rem; font-style: normal; }
 .publication-archive[open] .archive-toggle { background: #fff; color: var(--blue); }
 .archive-panel { border-top: 1px solid var(--line); padding: 48px 0 10px; }
 .archive-distribution { display: grid; grid-template-columns: repeat(5, 1fr); gap: 24px; margin-bottom: 60px; padding: 25px 28px; background: #f5f8fd; }
 .archive-distribution > div { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px; }
-.archive-distribution span { color: #34435a; font-size: .63rem; font-weight: 800; }
+.archive-distribution span { color: #34435a; font-size: calc(.63rem + 4px); font-weight: 800; }
 .archive-distribution i { height: 4px; background: #d7dee8; }
 .archive-distribution em { display: block; height: 100%; background: var(--blue); }
-.archive-distribution strong { color: #697588; font-size: .56rem; }
+.archive-distribution strong { color: #697588; font-size: calc(.56rem + 4px); }
 .archive-year-group { display: grid; grid-template-columns: 125px minmax(0, 1fr); border-top: 1px solid #bbc5d3; }
 .archive-year-heading { padding: 30px 25px 30px 0; }
 .archive-year-heading strong { display: block; color: var(--blue); font-family: var(--serif); font-size: 2.3rem; line-height: 1; }
@@ -188,9 +188,9 @@
 .archive-paper:last-child { border-bottom: 0; }
 .archive-paper-index { color: var(--blue); font-family: var(--serif); font-size: 1rem; }
 .archive-paper-copy { min-width: 0; }
-.archive-paper-title { display: block; color: #1c2a42; font-family: var(--serif); font-size: .92rem; line-height: 1.55; }
-.archive-paper-authors { margin: 8px 0 0; color: #758195; font-size: .61rem; }
-.archive-paper-meta { display: flex; flex-wrap: wrap; gap: 7px 18px; margin-top: 11px; color: #687589; font-size: .58rem; }
+.archive-paper-title { display: block; color: #1c2a42; font-family: var(--serif); font-size: calc(.92rem + 4px); line-height: 1.55; }
+.archive-paper-authors { margin: 8px 0 0; color: #758195; font-size: calc(.61rem + 4px); }
+.archive-paper-meta { display: flex; flex-wrap: wrap; gap: 7px 18px; margin-top: 11px; color: #687589; font-size: calc(.58rem + 4px); }
 .archive-paper-meta span { position: relative; }
 .archive-paper-meta span + span::before { content: ""; position: absolute; top: 50%; left: -10px; width: 3px; height: 3px; border-radius: 50%; background: #aab3c0; transform: translateY(-50%); }
 .archive-paper-meta .archive-role { color: var(--blue); font-weight: 700; }

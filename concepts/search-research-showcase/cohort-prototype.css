@@ -70,10 +70,10 @@
 .update-flow li::before { content: ""; position: absolute; top: -7px; left: 0; width: 12px; height: 12px; border: 2px solid #fff; border-radius: 50%; background: #a9b3c2; box-shadow: 0 0 0 1px #a9b3c2; }
 .update-flow li.is-current { border-color: var(--blue); }
 .update-flow li.is-current::before { background: var(--blue); box-shadow: 0 0 0 1px var(--blue); }
-.update-flow li > span { color: var(--blue); font-size: .65rem; font-weight: 800; }
-.update-flow strong { display: block; margin-top: 33px; font-family: var(--serif); font-size: 1.12rem; }
-.update-flow p { max-width: 210px; color: #667286; font-size: .7rem; }
-.update-flow small { display: inline-block; margin-top: 12px; border-radius: 99px; padding: 4px 9px; background: var(--blue); color: #fff; font-size: .55rem; }
+.update-flow li > span { color: var(--blue); font-size: calc(.65rem + 4px); font-weight: 800; }
+.update-flow strong { display: block; margin-top: 33px; font-family: var(--serif); font-size: calc(1.12rem + 4px); }
+.update-flow p { max-width: 210px; color: #667286; font-size: calc(.7rem + 4px); }
+.update-flow small { display: inline-block; margin-top: 12px; border-radius: 99px; padding: 4px 9px; background: var(--blue); color: #fff; font-size: calc(.55rem + 4px); }
 
 /* Keep the public cohort figures aligned with the homepage data style. */
 .cohort-a :is(.cutoff-card > strong, .headline-metrics strong, .donut strong, .chart-legend strong, .center-data-card > strong, .biospecimen-intro h2 strong, .update-flow li > span) {
