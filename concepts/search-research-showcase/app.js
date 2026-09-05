@@ -663,7 +663,7 @@
 
   function updateLanguageButton() {
     if (!languageButton) return;
-    languageButton.textContent = "中文 / EN";
+    languageButton.innerHTML = '<span class="language-option" data-language-option="zh">中文</span><span class="language-divider" aria-hidden="true">/</span><span class="language-option" data-language-option="en">EN</span>';
     languageButton.setAttribute("aria-pressed", currentLanguage === "en" ? "true" : "false");
     languageButton.title = currentLanguage === "en" ? "Switch to Chinese" : "切换至 English";
     languageButton.setAttribute("aria-label", currentLanguage === "en" ? "Switch language to Chinese" : "切换至 English");

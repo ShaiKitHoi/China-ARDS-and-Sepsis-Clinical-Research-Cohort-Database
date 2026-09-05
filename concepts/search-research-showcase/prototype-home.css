@@ -58,22 +58,25 @@ button { color: inherit; font: inherit; cursor: pointer; }
 .brand { display: flex; align-items: center; gap: 18px; min-width: 0; }
 .brand-mark { width: 120px; height: 120px; display: block; flex: 0 0 auto; object-fit: contain; }
 .brand-copy { min-width: 0; display: grid; line-height: 1.25; }
-.brand-copy strong { overflow: hidden; color: #0b2459; font-size: 1.25rem; text-overflow: ellipsis; white-space: nowrap; }
-.brand-copy small { margin-top: 7px; overflow: hidden; color: var(--muted); font-size: 0.82rem; letter-spacing: 0.035em; text-overflow: ellipsis; white-space: nowrap; }
+.brand-copy strong { overflow: hidden; color: #0b2459; font-size: calc(1.25rem - 2px); text-overflow: ellipsis; white-space: nowrap; }
+.brand-copy small { margin-top: 7px; overflow: hidden; color: var(--muted); font-size: calc(.82rem - 1px); letter-spacing: 0.035em; text-overflow: ellipsis; white-space: nowrap; }
 .main-nav { align-self: stretch; display: flex; align-items: stretch; }
 .main-nav a { position: relative; display: flex; align-items: center; padding: 0 12px; color: #3b4555; font-size: 0.82rem; font-weight: 600; }
 .main-nav a::after { content: ""; position: absolute; right: 12px; bottom: -1px; left: 12px; height: 3px; background: transparent; }
 .main-nav a:hover, .main-nav a.is-active { color: var(--blue); }
 .main-nav a.is-active::after { background: var(--blue); }
 .header-actions { display: flex; align-items: center; gap: 10px; }
-.language-button { border: 0; background: transparent; padding: 8px; color: #535f70; font-size: 0.76rem; font-weight: 700; }
-.language-button:hover, .language-button:focus-visible { color: var(--blue); }
+.language-button { display: inline-flex; align-items: center; gap: 2px; border: 1px solid #cfd7e3; border-radius: 3px; padding: 3px; background: #f5f8fd; color: #667286; font-size: 0.76rem; font-weight: 700; }
+.language-button .language-option { display: inline-flex; align-items: center; justify-content: center; min-height: 26px; padding: 0 8px; border-radius: 2px; transition: background .16s ease, color .16s ease; }
+.language-button .language-divider { color: #9ba7b7; }
+html[lang="zh-CN"] .language-button [data-language-option="zh"], html[lang="en"] .language-button [data-language-option="en"] { background: var(--blue); color: #fff; }
+.language-button:hover, .language-button:focus-visible { border-color: var(--blue); color: var(--blue); }
 .contact-link { border-radius: 3px; padding: 10px 15px; background: var(--blue); color: #fff; font-size: 0.76rem; font-weight: 700; }
 .nav-toggle { display: none; }
 
 /* English presentation: keep the header identity compact and give long English headlines a calmer hierarchy. */
 html[lang="en"] .brand-copy strong { display: none; }
-html[lang="en"] .brand-copy small { display: block; margin-top: 0; overflow: visible; color: #0b2459; font-size: .95rem; letter-spacing: 0; line-height: 1.35; text-overflow: clip; white-space: normal; }
+html[lang="en"] .brand-copy small { display: block; margin-top: 0; overflow: visible; color: #0b2459; font-size: calc(.95rem + 1px); letter-spacing: 0; line-height: 1.35; text-overflow: clip; white-space: normal; }
 
 @media (min-width: 761px) {
   /* English copy needs a quieter scale than the shorter Chinese headlines. */
@@ -363,8 +366,9 @@ html[lang="en"] .brand-copy small { display: block; margin-top: 0; overflow: vis
   .prototype-notice strong { display: none; }
   .site-header { min-height: 68px; padding-inline: 18px; }
   .brand-mark { width: 40px; height: 40px; }
-  .language-button { padding-inline: 4px; font-size: .66rem; }
-  .brand-copy strong { font-size: .75rem; }
+  .language-button { gap: 1px; padding: 2px; font-size: .66rem; }
+  .language-button .language-option { min-height: 24px; padding-inline: 5px; }
+  .brand-copy strong { font-size: calc(.75rem - 2px); }
   .brand-copy small { display: none; }
   html[lang="en"] .brand-copy small { display: none; }
   .a-hero { display: flex; min-height: auto; flex-direction: column; }

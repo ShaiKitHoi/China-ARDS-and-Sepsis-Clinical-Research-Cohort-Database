@@ -18,34 +18,34 @@
 .document-groups { display: grid; grid-template-columns: 1.35fr .65fr; gap: 14px; margin-top: 55px; }
 .document-group { min-height: 390px; border: 1px solid var(--line); background: #fff; }
 .document-group > header { min-height: 116px; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 25px 30px; border-top: 4px solid var(--blue); border-bottom: 1px solid var(--line); }
-.document-group > header span { color: var(--blue); font-size: .58rem; font-weight: 800; letter-spacing: .12em; }
-.document-group > header h3 { margin: 7px 0 0; color: #172541; font-family: var(--serif); font-size: 1.22rem; }
-.document-group > header b { flex: 0 0 auto; border-radius: 99px; padding: 5px 10px; background: var(--blue); color: #fff; font-size: .58rem; }
+.document-group > header span { color: var(--blue); font-size: calc(.58rem + 4px); font-weight: 800; letter-spacing: .12em; }
+.document-group > header h3 { margin: 7px 0 0; color: #172541; font-family: var(--serif); font-size: calc(1.22rem + 4px); }
+.document-group > header b { flex: 0 0 auto; border-radius: 99px; padding: 5px 10px; background: var(--blue); color: #fff; font-size: calc(.58rem + 4px); }
 .document-list { padding: 0 30px 28px; }
 .document-list a { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; align-items: center; gap: 17px; min-height: 122px; border-bottom: 1px solid var(--line); }
 .document-list a:hover .document-copy strong, .document-list a:focus-visible .document-copy strong { color: var(--blue); }
 .document-list a:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
-.document-icon { width: 44px; height: 52px; display: grid; place-items: center; border: 1px solid #b8c2d0; background: #fff; color: var(--blue); font-size: .58rem; font-weight: 800; letter-spacing: .06em; }
+.document-icon { width: 44px; height: 52px; display: grid; place-items: center; border: 1px solid #b8c2d0; background: #fff; color: var(--blue); font-size: calc(.58rem + 4px); font-weight: 800; letter-spacing: .06em; }
 .document-copy { min-width: 0; display: grid; }
-.document-copy strong { color: #1b2841; font-size: .82rem; transition: color .18s ease; }
-.document-copy small { margin-top: 7px; color: #7a8595; font-size: .59rem; }
-.document-action { color: var(--blue); font-size: .66rem; font-weight: 800; }
-.document-action i { margin-left: 6px; font-size: .9rem; font-style: normal; }
+.document-copy strong { color: #1b2841; font-size: calc(.82rem + 4px); transition: color .18s ease; }
+.document-copy small { margin-top: 7px; color: #7a8595; font-size: calc(.59rem + 4px); }
+.document-action { color: var(--blue); font-size: calc(.66rem + 4px); font-weight: 800; }
+.document-action i { margin-left: 6px; font-size: calc(.9rem + 4px); font-style: normal; }
 .branch-document-group > header { border-top-color: #9da8b8; }
 .branch-document-group > header span { color: #687589; }
 .document-empty { min-height: 260px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 20px; border: 1px dashed #aeb9c9; padding: 30px; text-align: center; }
-.document-empty > span { width: 40px; height: 40px; display: grid; place-items: center; border: 1px solid #bdc6d2; border-radius: 50%; color: #8994a4; font-size: 1.1rem; }
-.document-empty strong { margin-top: 18px; color: #2b3951; font-family: var(--serif); font-size: 1.08rem; }
-.document-empty p { max-width: 250px; margin: 8px 0 0; color: #7b8798; font-size: .65rem; }
+.document-empty > span { width: 40px; height: 40px; display: grid; place-items: center; border: 1px solid #bdc6d2; border-radius: 50%; color: #8994a4; font-size: calc(1.1rem + 4px); }
+.document-empty strong { margin-top: 18px; color: #2b3951; font-family: var(--serif); font-size: calc(1.08rem + 4px); }
+.document-empty p { max-width: 250px; margin: 8px 0 0; color: #7b8798; font-size: calc(.65rem + 4px); }
 .document-guidance { padding: 95px 0 110px; background: var(--blue); color: #fff; }
 .documents-section-head.light h2 { color: #fff; }
 .documents-section-head.light > p { color: rgba(255,255,255,.7); }
 .guidance-grid { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 52px; border-top: 1px solid rgba(255,255,255,.35); }
-.guidance-grid article { min-height: 210px; padding: 25px 35px 25px 0; border-right: 1px solid rgba(255,255,255,.18); }
-.guidance-grid article + article { padding-left: 35px; }
-.guidance-grid span { color: rgba(255,255,255,.6); font-size: .62rem; font-weight: 800; }
-.guidance-grid h3 { margin: 32px 0 8px; font-family: var(--serif); font-size: 1.2rem; }
-.guidance-grid p { max-width: 280px; margin: 0; color: rgba(255,255,255,.7); font-size: .68rem; }
+.guidance-grid article { min-height: 220px; padding: 28px 30px 24px 0; border-right: 1px solid rgba(255,255,255,.18); }
+.guidance-grid article + article { padding-left: 30px; }
+.guidance-grid span { color: rgba(255,255,255,.6); font-size: calc(.65rem + 4px); font-weight: 800; }
+.guidance-grid h3 { margin: 33px 0 8px; font-family: var(--serif); font-size: calc(1.12rem + 4px); }
+.guidance-grid p { max-width: 280px; margin: 0; color: rgba(255,255,255,.7); font-size: calc(.7rem + 4px); }
 
 /* Use one lining, tabular numeral style for document counts and step markers. */
 .documents-page :is(.documents-summary > div strong, .document-group > header b, .guidance-grid span) {

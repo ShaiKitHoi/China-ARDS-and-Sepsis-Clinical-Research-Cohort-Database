@@ -1,8 +1,12 @@
 # 中国 ARDS 与脓毒症临床研究队列数据库（SEARCH）
 
-SEARCH（Sepsis and ARDS Research Collaborative Network of China）致力于把临床一线的问题、规范化队列、生物样本与多中心研究连接起来，推动 ARDS、脓毒症及危重症相关研究的发现、验证与转化。本仓库保存 SEARCH 的中英双语科研门户及其公开展示资料。
+SEARCH（Sepsis and ARDS Research Collaborative Network of China）致力于把临床一线的问题、规范化队列、生物样本与多中心研究连接起来，推动 ARDS、脓毒症及危重症相关研究的发现、验证与转化。
 
-网站面向临床医生、科研人员和合作机构，呈现团队围绕 ARDS 异质性与精准诊疗、脓毒症免疫与代谢重塑、多模态早期预警、多中心队列与转化验证开展的代表性工作。我们希望通过统一的研究方案、数据标准和样本流程，凝聚全国多学科力量，让来自不同中心的临床观察能够沉淀为可比较、可追溯、可验证的证据。
+在复旦大学附属中山医院宋振举教授带领下，SEARCH 以危重症临床需求为牵引，持续推进 ARDS 与脓毒症的临床研究协作。团队将床旁观察、病例入组、样本采集、临床随访和多组学分析纳入同一研究路径，努力回答危重症患者异质性、早期识别、治疗反应和预后判断中的关键问题。
+
+围绕 ARDS，团队关注炎症表型、肺损伤机制、影像与蛋白组特征，以及不同患者群体的精准诊疗线索；围绕脓毒症，重点探索免疫失衡、代谢重塑与器官功能损伤的临床关联；同时结合临床、实验室、影像和多组学信息，发展早期预警与风险分层研究。多中心队列建设与外部验证贯穿其中，使单个中心的发现能够在更广泛的真实世界临床场景中接受检验。
+
+SEARCH 由主中心与全国协作单位共同建设。通过统一研究方案、数据字典、样本处理流程和质量控制要求，团队逐步形成可比较、可追溯的协作基础。我们相信，高质量的危重症研究不仅来自单一中心的经验，更来自跨学科、跨地区临床力量围绕共同问题的长期协同。
 
 ## 网站内容
 
@@ -16,33 +20,34 @@ SEARCH（Sepsis and ARDS Research Collaborative Network of China）致力于把�
 
 ## 当前网站
 
-- `concepts/search-research-showcase/`：当前持续维护的中英双语网站，共包含首页、研究成果、合作中心、队列和文件中心五个页面。
-- Vercel 通过根目录的 `vercel.json` 将 `/` 重写到该网站首页；网站的资源与数据文件仍保留在原目录，避免破坏相对路径。
+- 公开网站：[search-cn.org](https://search-cn.org)
+- 中英双语页面涵盖首页、研究与成果、合作单位、队列信息与项目文件。
 
-## 本地预览
+---
 
-请在仓库根目录运行：
+## English
 
-```bash
-python3 scripts/preview_site.py
-```
+### China ARDS and Sepsis Clinical Research Cohort Database (SEARCH)
 
-然后访问：
+SEARCH (Sepsis and ARDS Research Collaborative Network of China) connects frontline clinical questions, standardized cohorts, biospecimens, and multicenter research to advance discovery, validation, and translation in ARDS, sepsis, and critical illness.
 
-```text
-http://127.0.0.1:4176/concepts/search-research-showcase/index.html
-```
+Led by Professor Song Zhenju at Zhongshan Hospital, Fudan University, SEARCH advances collaborative clinical research in ARDS and sepsis through work grounded in the needs of critical care. The team brings bedside observations, participant enrollment, specimen collection, clinical follow-up, and multi-omics analysis into one research pathway to address key questions in patient heterogeneity, early identification, treatment response, and prognosis.
 
-必须通过 HTTP 预览页面；直接双击 HTML 以 `file://` 打开时，浏览器可能阻止读取成员 JSON 数据。
+In ARDS, the team studies inflammatory phenotypes, mechanisms of lung injury, imaging and proteomic features, and clues for precision care across patient groups. In sepsis, it examines the clinical links among immune dysregulation, metabolic remodeling, and organ dysfunction. Clinical, laboratory, imaging, and multi-omics data are also combined for early warning and risk-stratification research. Multicenter cohort development and external validation run throughout this work, allowing findings from individual centers to be tested in broader real-world clinical settings.
 
-## 目录说明
+SEARCH is built jointly by its coordinating center and collaborating institutions across China. Through shared study protocols, data dictionaries, specimen-processing procedures, and quality-control requirements, the network is developing a comparable and traceable foundation for collaboration. We believe that high-quality critical care research comes not only from the experience of a single center, but from sustained cooperation across disciplines and regions around shared questions.
 
-- `concepts/search-research-showcase/`：当前网站的 HTML、CSS、JavaScript、JSON 和页面图片。
-- `concepts/search-research-showcase/assets/team/`：网站实际使用的团队成员照片，以 Vercel 可稳定提供的相对路径引用。
-- `Document/`：文件中心提供下载的公开 PDF。
-- `icon/`：网站共用的视觉素材。
-- `scripts/preview_site.py`：本地无缓存预览服务器。
+### Website content
 
-## 归档说明
+- **Home**: introduces SEARCH's collaborative approach, research network, and main areas of work.
+- **Research & outcomes**: presents representative papers and five-year outputs across the research tracks, showing the path from clinical questions to evidence.
+- **Partner centers**: presents the coordinating center and national branch-center network, together with shared data, specimen, and validation standards.
+- **Cohort**: explains public cohort figures, biospecimens, and data-review definitions.
+- **Documents**: provides publicly available research resources and project documents.
 
-旧网页原型、重复照片、映射工作簿、设计 PPT、资料源文件及未被网站引用的论文 PDF 已移出仓库，保存在工作区同级的 `Backup/China-ARDS-and-Sepsis-Clinical-Research-Cohort-Database-pre-github-2026-08-31/`。该备份不参与网站运行，也不应随本仓库推送到 GitHub；如需恢复源文件，请按备份目录内的说明还原。
+We welcome dialogue and collaboration with colleagues in critical care, respiratory medicine, infectious diseases, imaging, omics, data science, and translational medicine in China and internationally. For research collaboration, data-standard questions, or public-resource inquiries, contact [search_cn@163.com](mailto:search_cn@163.com).
+
+### Website
+
+- Public site: [search-cn.org](https://search-cn.org)
+- Bilingual pages include Home, Research & outcomes, Partner centers, Cohort, and Documents.
