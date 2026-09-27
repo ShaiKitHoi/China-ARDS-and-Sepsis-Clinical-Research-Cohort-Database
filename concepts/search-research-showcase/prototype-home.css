@@ -167,8 +167,8 @@ html[lang="en"] .brand-copy small { display: block; margin-top: 0; overflow: vis
 html[lang="zh-CN"] .lead-pi-copy { padding-right: 14px; padding-left: 14px; }
 html[lang="zh-CN"] .lead-pi-copy h3 { font-size: 1.5rem; white-space: nowrap; }
 .lead-pi-copy > p:last-child, .team-photo-copy > p:last-child { margin: 10px 0 0; color: rgba(255,255,255,.68); font-size: .88rem; line-height: 1.65; }
-.team-photo-placeholder { position: relative; min-height: 0; height: var(--lead-photo-height); display: flex; align-items: center; justify-content: center; overflow: hidden; background: linear-gradient(145deg, rgba(255,255,255,.12), rgba(255,255,255,.025)); }
-.team-photo-placeholder::before { content: ""; position: absolute; inset: 24px; border: 1px dashed rgba(255,255,255,.36); }
+.team-photo-placeholder { position: relative; min-height: 0; height: var(--lead-photo-height); overflow: hidden; background: #dfe6e8; }
+.team-photo-image { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 78%; }
 .team-photo-wordmark { color: rgba(255,255,255,.075); font-family: var(--sans); font-size: clamp(4.5rem, 10vw, 9rem); font-weight: 800; letter-spacing: .08em; }
 .team-photo-status { position: absolute; bottom: 48px; left: 50%; border: 1px solid rgba(255,255,255,.3); border-radius: 99px; padding: 9px 15px; background: rgba(4,20,58,.55); color: rgba(255,255,255,.86); font-size: .76rem; font-weight: 700; letter-spacing: .08em; transform: translateX(-50%); white-space: nowrap; }
 .leadership-footer { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 40px; margin-top: 34px; padding-top: 32px; border-top: 1px solid rgba(255,255,255,.24); }
@@ -381,6 +381,7 @@ html[lang="zh-CN"] .lead-pi-copy h3 { font-size: 1.5rem; white-space: nowrap; }
   .lead-pi-card, .team-photo-card { grid-template-rows: auto auto; }
   .lead-pi-image img { height: auto; object-fit: initial; }
   .team-photo-placeholder { min-height: 280px; height: auto; }
+  .team-photo-image { height: auto; min-height: 280px; object-position: 50% 78%; }
   .team-photo-wordmark { font-size: clamp(3rem, 18vw, 5rem); }
   .team-photo-status { bottom: 36px; }
   .leadership-footer { align-items: flex-start; flex-direction: column; gap: 24px; }
